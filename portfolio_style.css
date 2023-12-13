@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('plain\ bg.avif') no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgb(2, 169, 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 40px;
+    color: rgb(222, 172, 20);
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.navbar a{
+    position: relative;
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top:35px;
+    left:0;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width:100%;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: pink;
+}
+
+.content {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.text {
+    max-width: 600px;
+    text-align: left;
+    font-size: 30px;
+}
+
+img {
+    max-width:30%;
+    height: auto;
+    display: block;
+}
+
+.container1 {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgb(246, 250, 125);
+}
+
+.content1 {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.text1 {
+    max-width: 600px;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+.text1 a{
+    font-size:30px;
+    text-align: center;
+    background: rgb(101, 247, 101);
+    color: black;
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+.contact-section {
+    background-color: #1eedf8;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    max-width: 150px;
+}
