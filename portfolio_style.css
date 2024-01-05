@@ -29,8 +29,9 @@ body {
 .logo {
     font-size: 40px;
     color: rgb(222, 172, 20);
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
+
 
 }
 
@@ -69,13 +70,13 @@ body {
     margin-top: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 50px;
 }
 
 .text {
-    max-width: 600px;
-    text-align: left;
+    max-width: 700px;
+    text-align:justify;
     font-size: 30px;
 }
 
@@ -96,7 +97,7 @@ img {
     margin-top: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 50px;
 }
 
@@ -110,6 +111,10 @@ img {
 .text1 a{
     font-size:30px;
     text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+    border-color: black;
     background: rgb(101, 247, 101);
     color: black;
     text-decoration: none;
@@ -119,27 +124,31 @@ img {
 .contact-section {
     background-color: #1eedf8;
     padding: 50px;
-    text-align: center;
+
+    text-align: left;
 }
 
 .contact-info {
-    max-width: 600px;
+    max-width: 36em;
     margin: 0 auto;
+    font-size: 30px;
     
 }
 
 .contact-info p {
     margin-bottom: 20px;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .social-links {
     margin-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
 }
 
 .social-links a {
-    display: inline-block;
-    margin: 0 10px;
+    
     text-decoration: none;
     color: #333;
     font-size: 20px;
